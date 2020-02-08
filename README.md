@@ -37,12 +37,12 @@ Vue.use(CountFlip)
 ```
 
 ## props（参数）
-prop | type | default | describe
-- | :-: | :-: | :-: 
-number | Number | 0 | The number should be showed | 
-comma | Boolean | true | If need currency format or not,like 123,456 | 
-size | Number | 24 | The size of font | 
-color | String | #000 | The color of font | 
+| prop  | type | default    | describe  |
+|-------|:---:|-----------|-------:|
+| number  | Number | 0 | The number should be showed |
+| comma | Boolean  | true | If need currency format or not,like 123,456   |
+| size  | Number   | 24 | The size of font     |
+| color  | String   | #000 | The color of font     |
 
 ## screenshot（截图）
 ![](https://xiaobaozi-1252810292.cos.ap-chengdu.myqcloud.com/count-flip.gif)

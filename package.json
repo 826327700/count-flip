@@ -7,6 +7,10 @@
   "author":"826327700@qq.com",
   "license":"ISC",
   "main":"packages/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/826327700/count-flip.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
