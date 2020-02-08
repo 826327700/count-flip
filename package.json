@@ -1,16 +1,20 @@
 {
-  "name": "num-rolling",
+  "name": "count-flip",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description":"number flip animation for vue",
+  "keyword":"count-flip",
+  "author":"826327700@qq.com",
+  "license":"ISC",
+  "main":"packages/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name CountFlip --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11",
-    "vue-router": "^3.1.5",
-    "vuex": "^3.1.2"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.0",
